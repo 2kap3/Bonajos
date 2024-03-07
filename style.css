@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Itim", cursive;
+}/* Body Styles */
+/* Body Styles */
+body {
+    padding: 20px;
+    font-family: "Open Sans", Arial, sans-serif; /* Change font-family to Open Sans */
+    background-color: black; /* Set background color to black */
+    color: rgb(1, 1, 1); /* Set text color to white */
+}
+
+/* Container Styles */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgb(237, 236, 236); /* Set background color of container to white */
+    padding: 20px; /* Add padding to the container */
+    border-radius: 10px; /* Add border radius to the container */
+}
+
+/* Form Styles */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+.form-row .form-group {
+    flex: 1;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/* Button Styles */
+.btn {
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    color: #0f0f0f;
+}
+
+.btn-primary:hover {
+    background-color: #f0f7ff;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+    color: #000000;
+}
+
+.btn-success:hover {
+    background-color: #000000;
+}
+
+/* Input Styles */
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Text Center Styles */
+.text-center {
+    text-align: center;
+}
+
+/* Margins */
+.mt-3 {
+    margin-top: 30px;
+}
+
+/* Heading Styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: rgb(0, 0, 0); /* Set color of headings to white */
+}
+
+/* Paragraph Styles */
+p {
+    color: rgb(0, 0, 0); /* Set color of paragraphs to white */
+}
+
+/* Link Styles */
+a {
+    color: #007bff; /* Set color of links to blue */
+    text-decoration: none; /* Remove underline from links */
+}
+
+a:hover {
+    color: #0056b3; /* Set color of links on hover to darker blue */
+}
